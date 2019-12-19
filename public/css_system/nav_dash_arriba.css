@@ -1,0 +1,120 @@
+#navigation_padre {
+    background-color: #2F4050;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+#nav_home {
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation:last-of-type {
+    position: absolute;
+    right: 0px;
+}
+
+.navigation:last-of-type ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.navigation:last-of-type>ul li {
+    margin-right: 20px;
+}
+
+.navigation:last-of-type>ul li a:link, .navigation:last-of-type>ul li a:visited, .navigation:last-of-type>ul li a:hover, .navigation:last-of-type>ul li a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    #nav_home {
+        height: 40px;
+    }
+    .navigation:last-of-type>ul {
+        width: 180px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 576px) {
+    #nav_home {
+        height: 40px;
+    }
+    .navigation:last-of-type>ul {
+        width: 180px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #nav_home {
+        height: 60px;
+    }
+    .navigation:last-of-type>ul {
+        width: auto;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #nav_home {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #nav_home {
+        height: 60px;
+    }
+}
+
+
+.nav-top {
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+.nav-top:nth-of-type(1) li a {
+  font-size: 20px;
+}
+.nav-top li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.nav-top:not(:nth-of-type(1)) li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.img_nav {
+    cursor: pointer;
+    height: 1.9rem;
+    margin: 0 0.3rem;
+}
+
+.box-new-cliente {
+    background-color: #0BA360;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 23px;
+    font-weight: bold;
+}

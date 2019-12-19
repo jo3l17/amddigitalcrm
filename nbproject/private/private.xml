@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/libs/mail_reader.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Ejemplo_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/websocket/chat.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Login_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/libs/Cpanel.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/PanelCliente_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/config_datos.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/websocket/vendor/cboden/ratchet/src/Ratchet/Server/EchoServer.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Usuario_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/MisClientes_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Cpanel_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Correos_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/ClientesGeneral_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Ubigeo_controller.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/config.php</file>
+            <file>file:/C:/xampp/htdocs/amddigitalcrm/controllers/Upload_controller.php</file>
+        </group>
+    </open-files>
+</project-private>

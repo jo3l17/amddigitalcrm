@@ -1,0 +1,16 @@
+table.datatable td,
+table.datatable th {
+    background: #fff;
+}
+
+table.datatable th {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #2F4050;
+    border-color: #2F4050;
+}

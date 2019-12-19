@@ -1,0 +1,52 @@
+body {
+    background-color: #293339;
+}
+.input-group-text {
+    background-color: #0BA360;
+    color: #fff;
+}
+.content-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+#logo {
+    width: 50%;
+}
+.content-form p {
+    color: #0BA360;
+    font-weight: 500;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #0BA360;
+    text-decoration: none;
+    font-weight: 600;
+}
+@media (max-width: 576px) {
+    .content-form {
+        width: 90%;
+    }
+}
+@media (min-width: 576px) {
+    .content-form {
+        width: 90%;
+    }
+}
+@media (min-width: 768px) {
+    .content-form {
+        width: 60%;
+    }
+}
+@media (min-width: 992px) {
+    .content-form {
+        width: 40%;
+    }
+}
+@media (min-width: 1200px) {
+    .content-form {
+        width: 40%;
+    }
+}

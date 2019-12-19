@@ -1,0 +1,166 @@
+.img_center img {
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img_center {
+    align-items: center;
+    text-align: center;
+}
+
+.p_datos_line {
+    line-height: 1.1;
+}
+
+.p_datos_justi {
+    word-break: break-all;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.p_datos_justi::first-letter {
+    text-transform: capitalize;
+}
+
+thead th {
+    text-transform: uppercase;
+}
+
+
+/* Estrellas */
+
+.star-rating {
+    display: inline-block;
+}
+
+.star-rating a {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #95A5A6;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+.estrella_marcada {
+    color: #F39C12 !important;
+}
+
+.star-rating:hover a {
+    color: #F39C12;
+}
+
+.star-rating:hover a:hover~a {
+    color: #95A5A6;
+}
+
+@media (max-width: 576px) {
+    .alertify .ajs-dialog {
+        max-width: 98%;
+    }
+    .avatar {
+        margin-bottom: 4%;
+    }
+}
+
+@media (min-width: 576px) {
+    .alertify .ajs-dialog {
+        max-width: 98%;
+    }
+}
+
+@media (min-width: 768px) {
+    .alertify .ajs-dialog {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .alertify .ajs-dialog {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .alertify .ajs-dialog {
+        max-width: 80%;
+    }
+}
+
+
+/* mensajes correo */
+
+.mensaje {
+    display: flex;
+    align-items: center;
+}
+
+.mensaje_b {
+    flex-direction: row-reverse;
+}
+
+.mensaje div:nth-of-type(2) {
+    padding: 5px 15px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.avatar {
+    background: red;
+}
+
+.avatar_c {
+    background-color: #0BA360 !important;
+}
+
+.avatar_s {
+    background-color: #5E69C0 !important;
+}
+
+.avatar_v {
+    background-color: #F06D05 !important;
+}
+
+.mensaje_flecha:after {
+    content: "\0000a0";
+    position: absolute;
+    top: 35%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.mensaje_flecha_l:after {
+    left: -10px;
+    border-right: 10px solid #ced4da;
+}
+
+.mensaje_flecha_r:after {
+    right: -10px;
+    border-left: 10px solid #E1FFC7;
+}
+
+.mensaje_flecha_r {
+    background: #E1FFC7;
+}
+
+p.datos {
+    line-height: 1.2;
+    padding: 0px;
+}

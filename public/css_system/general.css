@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+body {
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centrar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #2F4050;
+    outline: 0;
+    box-shadow: initial;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #2F4050;
+}
+
+.c-f-corregido {
+    padding-top: 80px;
+}
+
+.img_datatable_c {
+    cursor: pointer;
+    height: 2rem;
+    margin-bottom: 5px;
+}
+
+.ocultar {
+    display: none;
+}
+
+.ajs-message.ajs-custom-warning {
+    color: rgba(220, 53, 69, 1);
+    background-color: #fff;
+    border-color: #DC3545;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 0px 0.2rem rgba(220, 53, 69, 1);
+    -moz-box-shadow: 0px 0px 0px 0.2rem rgba(220, 53, 69, 1);
+    box-shadow: 0px 0px 0px 0.2rem rgba(220, 53, 69, 1);
+}
+
+.ajs-message.ajs-custom-black {
+    color: rgba(47, 64, 80, 1);
+    background-color: #fff;
+    border-color: #343A40;
+    -webkit-box-shadow: 0px 0px 0px 0.2rem rgba(47, 64, 80, 1);
+    -moz-box-shadow: 0px 0px 0px 0.2rem rgba(47, 64, 80, 1);
+    box-shadow: 0px 0px 0px 0.2rem rgba(47, 64, 80, 1);
+}
+
+.form-group {
+    margin-bottom: 0.2rem;
+}
+
+label {
+    margin-bottom: .1rem;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.imgr_medida {
+    height: 20px;
+}
+
+.imgr {
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+#imgr2 {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.alertify .ajs-dialog {
+    max-height: 95%;
+    height: 95% !important;
+    margin: 1% auto;
+}
+
+.alertify .ajs-header {
+    border-bottom: 1px solid rgba(0,0,0,.1) !important;
+}
+
+/*.alertify .ajs-body .ajs-content {
+    padding: 1px 24px 16px 16px;
+}*/
+
+.note-editor.note-frame {
+    border: 1px solid #ced4da !important;
+}
+.alertify.ajs-maximized .ajs-body .ajs-content, .alertify.ajs-resizable .ajs-body .ajs-content{
+    top: 60px;
+}
+
+.popover {
+    z-index: 1981 !important;
+}
